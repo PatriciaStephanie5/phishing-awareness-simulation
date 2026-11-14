@@ -35,7 +35,7 @@ Confirm what “success rate” means in the platform (for example, click rate, 
 - * [**02. methodology**](docs/methodology.md) – method and metric definitions
 - * [**03. results and analysis**](docs/results-analysis.md) – reported results and interpretation
 - * [**04. recommendations**](docs/recommendations.md) – awareness and technical controls
-- * [**View Full Project Presentation Documentation (PDF)**](presentation/presentation.pdf) – employee-awareness presentation
+- * [**View Full Project Presentation Documentation (PDF)**](presentation/Security-awareness-training.pdf) – employee-awareness presentation
 - ![Simulated Phishing Email](evidence/phishing-email.png) – redacted simulation screenshots
 - * [**certificate earned**](certificates/Phishing-simulation-completion-certificate.pdf) – completion certificate issued
 
