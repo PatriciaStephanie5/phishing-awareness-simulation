@@ -15,21 +15,6 @@ This repository documents a phishing-awareness exercise completed as part of the
 - Communicate safe hyperlink inspection and suspicious-email reporting.
 - Recommend layered technical and organisational controls.
 
-## Reported results – verify before publication
-The following figures are present in the working project notes and must be checked against the original simulation output before being treated as final.
-
-| Group | Reported rate |
-|---|---:|
-| HR | 75% |
-| Marketing | 38% |
-| Card Services | 10% |
-| R&D | 2% |
-| Engineering | 1% |
-| IT | 0% |
-| Overall | 18% |
-
-Confirm what “success rate” means in the platform (for example, click rate, credential submission or another measure). Do not call it a compromise rate unless the source defines it that way.
-
 ## Repository guide
 - * [**01. Project Overview**](docs/project-overview.md) – scope and objectives
 - * [**02. methodology**](docs/methodology.md) – method and metric definitions
