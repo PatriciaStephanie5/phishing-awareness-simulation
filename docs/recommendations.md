@@ -1,18 +1,32 @@
 # Recommendations
 
-## Employee awareness
-- Teach employees to inspect sender addresses, unexpected requests, urgency cues and attachments.
-- Demonstrate safe hyperlink inspection: preview the destination, check the actual domain and do not rely only on displayed link text.
-- Provide a clear, low-friction process for reporting suspicious emails.
-- Offer targeted follow-up training where results indicate a need.
-- Encourage prompt reporting after accidental clicks.
+## 1. Employee Awareness (People Controls)
 
-## Technical controls
-- Implement email authentication and anti-phishing protections, including SPF, DKIM and DMARC where applicable.
-- Analyse URLs and attachments at the email gateway.
-- Use endpoint protection and application controls to reduce malicious attachment execution.
-- Enforce MFA, preferably phishing-resistant methods for sensitive accounts.
-- Monitor anomalous sign-ins and unusual account activity.
+- Teach employees to inspect the actual sender address, urgency language, unexpected requests, and attachments before clicking.
+- Demonstrate safe hyperlink inspection: hover or long-press to preview the real destination domain; never rely solely on the displayed link text.
+- Publish a simple, low-friction reporting process (e.g., “Report Phish” button or dedicated mailbox) and make it visible in every inbox.
+- Deliver short, role-specific follow-up training to groups that showed higher interaction rates (starting with HR and Marketing).
+- Explicitly encourage staff to report accidental clicks immediately so the SOC can contain them quickly.
 
-## Measurement
-Track reporting rates, repeat interaction rates, time to report and training completion. Interpret metrics in context and avoid punitive use of individual-level results.
+**Concrete example for hyperlink inspection**  
+Display the difference between:
+- Visible text: `https://mastercard-secure-login.com`  
+- Actual destination: `https://mcrd-secure-login[.]xyz/login`  
+
+## 2. Technical Controls
+
+- Enforce SPF, DKIM and DMARC (at least `p=quarantine`, preferably `p=reject`) on all sending domains.
+- Enable URL rewriting / time-of-click analysis and attachment sandboxing at the email gateway.
+- Deploy endpoint protection with application control / allow-listing to reduce successful execution of malicious attachments.
+- Require phishing-resistant MFA (FIDO2 / passkeys or hardware tokens) for privileged and high-risk accounts; standard MFA for all other accounts.
+- Alert on anomalous sign-ins, impossible travel, and unusual mailbox or file-access behaviour.
+
+## 3. Measurement & Continuous Improvement
+
+Track the following metrics over successive campaigns:
+- Reporting rate
+- Repeat interaction rate (same user clicking in later simulations)
+- Median time from click to report
+- Training completion rate
+
+Interpret results in context. Avoid punitive use of individual-level data; focus on organisational improvement.
