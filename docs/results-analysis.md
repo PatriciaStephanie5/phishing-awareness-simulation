@@ -1,17 +1,21 @@
 # Results Analysis
 
-## Reported figures – source verification required
+## Reported Interaction Rates (Unverified)
 
-| Group | Reported rate |
-|---|---:|
-| HR | 75% |
-| Marketing | 38% |
-| Card Services | 10% |
-| R&D | 2% |
-| Engineering | 1% |
-| IT | 0% |
-| Overall | 18% |
+The figures below appear in the working project notes. They have **not** been independently verified against the original Forage / Mastercard simulation output. Exact metric definition (click rate, credential submission rate, or another interaction measure), sample sizes, and confidence intervals are currently unknown.
 
-If the metric represents interaction with a phishing lure, HR and Marketing show higher reported rates than the other listed groups and may warrant targeted awareness support. Lower reported values do not prove that Engineering or IT are immune to phishing.
+| Group | Reported Rate | Interpretation Notes |
+|---|---:|---|
+| HR | 75% | Highest reported rate – priority for targeted awareness support |
+| Marketing | 38% | Elevated relative to technical teams |
+| Card Services | 10% | Moderate |
+| R&D | 2% | Low |
+| Engineering | 1% | Low |
+| IT | 0% | Lowest reported rate |
+| **Overall** | **18%** | Aggregate figure only |
 
-The current notes do not include participant counts, confidence intervals, exact metric definition or full methodology. Treat these values as descriptive until verified against the original platform output.
+### Analyst Notes
+- Higher reported rates in HR and Marketing do **not** prove those departments are less security-conscious; they may simply have been more exposed to the simulation or received different lures.
+- Low rates in Engineering and IT do **not** prove immunity. Technical staff can still fall for well-crafted phishing.
+- Until the original platform output is re-checked, these numbers must be treated as **descriptive indicators only**, not as definitive departmental risk scores.
+
