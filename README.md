@@ -1,31 +1,33 @@
 # Phishing Awareness Simulation & Analysis
 
-**Programme:** Mastercard Cybersecurity Job Simulation  
-**Platform:** Forage
+### Security+ Alignment (SY0-701)
+- Domain 2: Threats, Vulnerabilities, and Mitigations – Social engineering & phishing
+- Domain 5: Security Program Management – Security awareness and training
+
+**Programme:** Mastercard Cybersecurity Job Simulation (Forage)
 
 ## Overview
-This repository documents a phishing-awareness exercise completed as part of the Mastercard cybersecurity job simulation on Forage. It focuses on understanding phishing, safe hyperlink handling, interpreting simulation outcomes and translating findings into employee guidance.
+This repository documents a phishing-awareness exercise completed as part of the Mastercard cybersecurity job simulation. The focus was on understanding phishing risks, reviewing simulation results, and turning those results into practical employee guidance and layered controls.
 
-> This is a training simulation, not a live phishing campaign against real Mastercard employees or a real corporate environment.
+> This is a training simulation, not a live campaign against real employees or a real organisation.
 
 ## Objectives
-- Understand phishing and social engineering risks.
-- Review reported simulation outcomes.
-- Identify where additional awareness support may be useful.
-- Communicate safe hyperlink inspection and suspicious-email reporting.
-- Recommend layered technical and organisational controls.
+- Understand common phishing and social-engineering techniques
+- Analyse simulation outcomes (click rates, report rates, etc.)
+- Identify where additional awareness support is needed
+- Recommend both awareness training and technical controls
 
-## Repository guide
-- * [**01. Project Overview**](docs/project-overview.md) – scope and objectives
-- * [**02. methodology**](docs/methodology.md) – method and metric definitions
-- * [**03. results and analysis**](docs/results-analysis.md) – reported results and interpretation
-- * [**04. recommendations**](docs/recommendations.md) – awareness and technical controls
-- * [**View Full Project Presentation Documentation (PDF)**](presentation/Security-awareness-training.pdf) – employee-awareness presentation
-- ![Simulated Phishing Email](evidence/phishing-email.png) – redacted simulation screenshots
-- * [**certificate earned**](certificates/Phishing-simulation-completion-certificate.pdf) – completion certificate issued
+## Repository Contents
+- [Project Overview](docs/project-overview.md)
+- [Methodology](docs/methodology.md)
+- [Results & Analysis](docs/results-analysis.md)
+- [Recommendations](docs/recommendations.md)
+- [Employee Awareness Presentation (PDF)](presentation/Security-awareness-training.pdf)
+- [Completion Certificate](certificates/Phishing-simulation-completion-certificate.pdf)
+- Evidence folder (redacted screenshots)
 
-## Limitations
-Sample sizes, exact metric definition and statistical methodology are not in the current notes. Treat percentages as descriptive indicators, not proof of departmental security posture.
+## Key Takeaways
+Phishing remains one of the most common initial access methods. Combining clear employee guidance with technical controls (safe-link checking, reporting buttons, filtering) reduces successful compromises more effectively than either approach alone.
 
 ## Author
-**Patricia Stephanie** · [GitHub profile](https://github.com/PatriciaStephanie5)
+**Patricia Stephanie** · [GitHub](https://github.com/PatriciaStephanie5)
